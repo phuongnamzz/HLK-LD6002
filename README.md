@@ -104,7 +104,7 @@ void setup()
 {
   Serial.begin(115200);
   Serial1.begin(1382400, SERIAL_8N1, 16, 17);
-
+  // 🔔some modules come with 115200 baudrate
 }
 
 float lastHeartRate = 0;
